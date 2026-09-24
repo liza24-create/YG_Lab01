@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
 
     //Function button to change background color
 
+    //Code for revert
+
     public void onClick(View view) {
         TextView tvMain = findViewById(R.id.tvMain);
         tvMain.setText("Hello everyone to my first app!");
