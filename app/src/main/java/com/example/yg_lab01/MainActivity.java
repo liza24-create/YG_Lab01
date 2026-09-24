@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
 
     //Comment in master
 
+    //Function button to change background color
+
     public void onClick(View view) {
         TextView tvMain = findViewById(R.id.tvMain);
         tvMain.setText("Hello everyone to my first app!");
@@ -35,5 +37,10 @@ public class MainActivity extends AppCompatActivity {
     public void onChangeColorClick(View view) {
         TextView tvMain = findViewById(R.id.tvMain);
         tvMain.setTextColor(Color.RED);
+    }
+
+    public void onChangeBgClick(View view) {
+        View mainLayout = findViewById(R.id.main);
+        mainLayout.setBackgroundColor(Color.BLUE);
     }
 }
